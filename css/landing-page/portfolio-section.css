@@ -167,6 +167,19 @@
   background-position: center center;
   background-repeat: no-repeat;
 }
+
+#portfolio-section .portfolio-container .box.image8{
+  grid-column: 3 / 4;
+  grid-row: 4 / 6;
+}
+#portfolio-section .portfolio-container .box.image8 .image{
+  background: url("https://i.postimg.cc/43Rprjw6/tuitionappfinalcrop.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 /* Tablets */
 @media only screen and (max-width: 960px){
   #portfolio-section .portfolio-container{
@@ -202,6 +215,10 @@
   #portfolio-section .portfolio-container .box.image7{
     grid-column: 1 / 4;
     grid-row: 7 / 9;
+  }
+    #portfolio-section .portfolio-container .box.image8{
+    grid-column: 1 / 4;
+    grid-row: 9 / 11;
   }
 }
 /* Phones */
@@ -239,5 +256,9 @@
   #portfolio-section .portfolio-container .box.image7{
     grid-column: 1 / 4;
     grid-row: 7 / 8;
+  }
+   #portfolio-section .portfolio-container .box.image8{
+    grid-column: 1 / 4;
+    grid-row: 8/ 9;
   }
 }
